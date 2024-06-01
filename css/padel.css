@@ -1,0 +1,531 @@
+#imagePrincipale {
+  padding-top: 60px;
+  background: url("../imgs/PADEL1.jpg") no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+
+#premierTrait {
+  height: 4px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #000000;
+  box-shadow: 2px 3px 2px black;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: rgb(224, 217, 208);
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+.head {
+  color: red;
+  font-size: 20px;
+
+
+}
+
+.text-centerfs-bold {
+  color: rgb(109, 10, 10);
+  font-family: "galada";
+}
+
+
+h2.DEF {
+  position: relative;
+  font-family: Arial;
+  text-decoration: underline;
+  padding-top: 40PX;
+  color: #9c1616;
+}
+
+.debut {
+  color: #ffffff;
+  padding-top: 20PX;
+}
+
+h5 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 1em;
+  text-shadow: 1px 3px 2px black;
+}
+
+
+
+
+
+.para {
+  width: 700px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;
+  color: rgb(212, 212, 205);
+}
+
+.quote-container {
+  max-width: 600px;
+
+  margin: 0 auto;
+
+
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.quote {
+  font-family: Georgia, serif;
+
+  font-size: 24px;
+
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.quote::before,
+.quote::after {
+  content: " '' ";
+}
+
+.author {
+  margin-top: 20px;
+  font-size: 18px;
+
+  font-style: normal;
+  text-align: right;
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+}
+
+h1 {
+  color: red;
+  font-family: "galada";
+
+}
+
+#presentation {
+  background-color: #000000;
+  padding: 60px 0px 32px 0;
+  padding-top: 1PX;
+}
+
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+
+.imagesPrestations h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.4em;
+  margin: 15px;
+  font-weight: 300;
+  color: white;
+}
+
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+  width: 200px;
+  height: 150px;
+}
+
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+
+.def {
+  color: white;
+}
+
+h2 {
+
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 90;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.debut {
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-size: 3.5em;
+}
+
+.t {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Times New Roman", serif;
+  /* Serif font for elegance */
+}
+
+.t th,
+.t td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.t th {
+  background-color: #f5f5f5;
+  /* Light gray header background */
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid #990000;
+}
+
+.t tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.t tr:hover {
+  background-color: #f5f5f5;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+blockquote p {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+blockquote footer {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  text-align: right;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+
+.blockquote-wrapper {
+  display: flex;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+
+.blockquote {
+  position: relative;
+  font-family: "Barlow Condensed", sans-serif;
+  max-width: 620px;
+  margin: 80px auto;
+  align-self: center;
+}
+
+.blockquote h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.blockquote h1 {
+  font-family: "Abril Fatface", cursive;
+  position: relative;
+  /* for pseudos */
+  color: rgb(109, 10, 10);
+  font-size: 0.2rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  border: 2px solid #fff;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+
+.blockquote h1:after {
+  content: " ";
+  position: absolute;
+  border: 2px solid rgb(109, 10, 10);
+  border-radius: 0 50px 0 0;
+  width: 60px;
+  height: 60px;
+
+  bottom: -60px;
+  left: 50px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 3;
+}
+
+.blockquote h1:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  border: 6px solid #000000;
+  bottom: -3px;
+  left: 50px;
+  z-index: 2;
+}
+
+
+.text-block {
+  width: 80%;
+  margin: 37PX;
+  margin-left: 120PX;
+  margin-top: 55PX;
+  padding: 20px;
+  border: 1px solid #ccc;
+
+}
+
+#definition {
+  background-color: #000000;
+  padding-top: 10PX;
+  margin-top: 0PX;
+  font-family: "galada";
+
+
+}
+
+#TROITrait {
+  background-color: #9c0303;
+  height: 5px;
+  width: 150%;
+  margin: 3px auto;
+  font-weight: bold;
+
+  box-shadow: 1px 3px 2px black;
+
+}
+
+#DEUXIEMTrait {
+  height: 5px;
+  width: 150%;
+  margin: 3px auto;
+  background-color: #9c0303;
+  box-shadow: 1px 3px 2px black;
+}
+
+.paragraphe {
+
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f8f7f7;
+
+
+}
+
+
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+  .blockquote h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+
+.blockquote h4 {
+  position: relative;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+  padding-top: 15px;
+  z-index: 1;
+  margin-left: 120px;
+  margin-right: 170px;
+  padding-left: 12px;
+}
+
+.blockquote h4:first-letter {
+  margin-left: -12px;
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: black;
+  height: 90px;
+  display: flex;
+
+
+
+}
+
+.title {
+  font-family: cursive;
+
+
+
+}
+
+
+
+.icons {
+
+  position: absolute;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.icon {
+  height: 60px
+}
+
+
+
+.box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.box::before {
+  content: attr(data-work);
+  position: absolute;
+  background-color: rgb(51 209 204 /76%);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.3s;
+  transform: translateX(calc(-100% - 5px));
+}
+
+.titre {
+  color: rgb(109, 10, 10);
+  font-family: "Brush Script MT, Brush Script Std, cursive";
+  font-size: 3.5em;
+  padding-top: 40px;
+  padding-bottom: 22px;
+  margin-top: 7px;
+}
+
+.d {
+  color: rgb(109, 10, 10);
+  font-family: "Brush Script MT, Brush Script Std, cursive";
+  font-size: 3.5em;
+  padding-top: 40px;
+  padding-bottom: 22px;
+  margin-top: 7px;
+}
+
+.box:hover::before {
+  transform: translateX(0);
+}
+
+@media screen and (max-width=800px) {
+
+  .landing,
+  .main-div {
+    width: fit-content;
+  }
+
+}
