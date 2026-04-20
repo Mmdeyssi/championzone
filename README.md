@@ -24,7 +24,7 @@ ChampionZone is a **responsive sports community web application** that brings sp
 - 📱 Fully responsive design across all screen sizes
 - 🎨 Clean, modern UI with custom CSS and web fonts
 - 🏅 Dynamic sports content pages
-- ☁️ Deployed and live on Vercel
+
 
 ---
 
